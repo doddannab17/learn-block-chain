@@ -1,0 +1,24 @@
+{
+  "name": "blockchain",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --watch dev -e js dev/api.js"
+  },
+  "keywords": [
+    "Block",
+    "chain"
+  ],
+  "author": "Doddanna",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "express": "^4.21.1",
+    "nodeman": "^1.1.2",
+    "nodemon": "^3.1.7",
+    "sha256": "^0.2.0",
+    "uuid": "^10.0.0"
+  }
+}
